@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--very-light-gray);    
+    background-color: var(--branco);    
 }
 
 .main {
@@ -65,31 +65,31 @@ body {
 }
 
 .main p {
-    color: var(--grayish-blue);
+    color: var(--paragrafo);
     font-size: 15px;
 }
 
 .main h1, h3 {
-    color: var(--very-dark-blue);
+    color: var(--titulo-subtitulo);
 }
 
 .main .container .supervisor {
-    border-top: 4px solid var(--cyan);
+    border-top: 4px solid var(--borda-supervisor);
     border-radius: 7px 7px 0 0;
 }
 
 .main .container .team-builder {
-    border-top: 4px solid var(--red);
+    border-top: 4px solid var(--borda-team-builder);
     border-radius: 7px 7px 0 0;
 }
 
 .main .container .karma {
-    border-top: 4px solid var(--orange);
+    border-top: 4px solid var(--borda-karma);
     border-radius: 7px 7px 0 0;
 }
 
 .main .container .calculator {
-    border-top: 4px solid var(--blue);
+    border-top: 4px solid var(--borda-calculator);
     border-radius: 7px 7px 0 0;
 }
 
